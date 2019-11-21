@@ -52,7 +52,7 @@
 		"prefix": "sc",
 		"body": 
 		[
-			"scanf(\"$1\",$2)$0"
+			"scanf(\"$1\",$2)"
 		],
 		"description": "scanf"
 	},
@@ -62,7 +62,7 @@
 		"prefix": "stru",
 		"body": 
 		[
-			"struct ${1:MyStruct}\n{\n\t$2\n} $3;$0"
+			"struct ${1:MyStruct}\n{\n\t$2\n} $3;"
 		],
 		"description": "struct"
 	},
@@ -72,7 +72,7 @@
 		"prefix": "re",
 		"body":
 		[
-		"return $1;$0"
+		"return $1;"
 		],
 		"description": "return"
 	},
@@ -154,7 +154,7 @@
 			"if($1)",
 			"{",
 			"\t$2",
-			"}$0"
+			"}"
 		],
 		"description": "if"
 	},
@@ -167,7 +167,7 @@
 			"else",
 			"{",
 			"\t$1",
-			"}$0"
+			"}"
 		],
 		"description": "else"
 	},
@@ -184,7 +184,7 @@
 			"else",
 			"{",
 			"\t$3",
-			"}$0"
+			"}"
 		],
 		"description": "if-else"
 	},
@@ -197,8 +197,7 @@
 			"else if($1)",
 			"{",
 			"\t$0",
-			"}",
-			"$0"
+			"}"
 		],
 		"description": "else if"
 	},
@@ -211,7 +210,7 @@
 			"for(${1:size_t} i = 0; i < ${2:length}; i++)",
 			"{",
 			"\t$3",
-			"}$0"
+			"}"
 		],
 		"description": "for"
 	},
@@ -224,7 +223,7 @@
 			"while($1)",
 			"{",
 			"\t$2",
-			"}$0"
+			"}"
 		],
 		"description": "while"
 	},
@@ -238,7 +237,7 @@
 			"{",
 			"\t$2",
 			"}",
-			"while($1)$0"
+			"while($1);"
 		],
 		"description": "do while"
 	},
@@ -248,7 +247,7 @@
 		"prefix": "malloc",
 		"body":
 		[
-			"(${1:type})malloc($2);$0"
+			"(${1:type})malloc($2);"
 		],
 		"description": "malloc"
 	},
@@ -258,7 +257,7 @@
 		"prefix": "calloc",
 		"body":
 		[
-			"(${1:type})calloc($2,$3);$0"
+			"(${1:type})calloc($2,$3);"
 		],
 		"description": "calloc"
 	},
@@ -268,7 +267,7 @@
 		"prefix": "size",
 		"body":
 		[
-			"sizeof(${1:type})$0"
+			"sizeof(${1:type})"
 		],
 		"description": "sizeof"
 	},
@@ -334,7 +333,7 @@
 		"prefix": "free",
 		"body":
 		[
-			"free($1);$0"
+			"free($1);"
 		],
 		"description": "free"
 	},
