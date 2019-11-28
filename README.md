@@ -1,4 +1,7 @@
-### remote
-`git@github.com:ITFS777/VSCconfig.git`
-### local remote branch
-`VSC`
+# ITFS's Visual Studio Code Snippets
+
+> Language list
+* Global
+* C
+* C++
+* Python
