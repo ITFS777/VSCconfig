@@ -12,6 +12,27 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"A C++ Temple":
+	{
+		"prefix": "#c",
+		"body":
+		[
+			"#include <iostream>",
+			"#include <string>",
+			"#include <vector>\n",
+			"//////////////////////////////////////////////////////////////////////////",
+			"using std::cin;",
+			"using std::cout;",
+			"using std::endl;",
+			"using std::string;",
+			"using std::vector;",
+			"//////////////////////////////////////////////////////////////////////////",
+			"int main(void)\n{\n\t$0\n\treturn 0;\n}"
+		],
+		"description": ""
+	},
+	//////////////////////////////////////////////////////////////////////////
+	
 	"iostream":
 	{
 		"prefix": "iostream",
