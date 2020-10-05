@@ -59,7 +59,7 @@
 			"* ${1:$TM_FILENAME_BASE}",
 			"* $CURRENT_DAY_NAME_SHORT $CURRENT_MONTH_NAME_SHORT $CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND CST $CURRENT_YEAR ",
 			"* @Version ${2:version}",
-			"* @Auther ${3|Aryan Sjet,ITFS777,ITFS,Aryan|}",
+			"* @Auther ${3|ITFS777,Aryan Sjet,ITFS,Aryan|}",
 			"* @Email Aryan.ITFS@iCloud.com",
 			"* @License ${4|Apache License 2.0,MIT License,GNU AGPLv3,GNU GPLv3,GNU LGPLv3,Mozilla Public License 2.0|}",
 			"* @Copyright © $CURRENT_YEAR, ${3:Aryan Sjet}",

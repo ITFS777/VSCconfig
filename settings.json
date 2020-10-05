@@ -11,13 +11,13 @@
     "editor.rulers": [80],
     "editor.snippetSuggestions": "top",
     "editor.tabCompletion": true,
-    "python.pythonPath": "C:\\Users\\ITFS\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+    "python.pythonPath": "E:\\Anaconda\\python.exe",
     "editor.hideCursorInOverviewRuler": true,
     "window.zoomLevel": 0,
     "latex-workshop.bibtex-format.tab": "4 spaces",
     "latex-workshop.view.pdf.viewer": "tab",
     "[latex]": {
-        "editor.defaultFormatter": "James-Yu.latex-workshop"
+        "editor.defaultFormatter": "nickfode.latex-formatter"
     },
     "matlab.linterConfig": "E:\\Matlab\\bin\\win64\\mlint.exe",
     "[matlab]": {
@@ -38,5 +38,8 @@
         "itfs127.com": "linux"
     },
     "git.autofetch": true,
-    "tabnine.experimentalAutoImports": true
+    "tabnine.experimentalAutoImports": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "terminal.external.windowsExec": "E:\\PowerShell\\7\\pwsh.exe"
 }
