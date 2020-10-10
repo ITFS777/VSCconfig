@@ -1,45 +1,11 @@
 {
-    "workbench.colorTheme": "One Dark Pro",
-    "extensions.ignoreRecommendations": false,
-    "php.validate.executablePath": "E:\\WampServer\\bin\\php\\php7.4.0\\php.exe",
-    "editor.fontFamily": "Cascadia Code",
-    "terminal.integrated.fontFamily": "等距更纱黑体 T SC",
-    "editor.fontLigatures": true,
-    "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": true,
-    "editor.minimap.enabled": true,
-    "editor.rulers": [80],
-    "editor.snippetSuggestions": "top",
-    "editor.tabCompletion": true,
-    "python.pythonPath": "E:\\Anaconda\\python.exe",
-    "editor.hideCursorInOverviewRuler": true,
-    "window.zoomLevel": 0,
-    "latex-workshop.bibtex-format.tab": "4 spaces",
-    "latex-workshop.view.pdf.viewer": "tab",
-    "[latex]": {
-        "editor.defaultFormatter": "nickfode.latex-formatter"
-    },
-    "matlab.linterConfig": "E:\\Matlab\\bin\\win64\\mlint.exe",
-    "[matlab]": {
-        
-    },
-    "files.associations": {
-        "*.m": "matlab"
-    },
-    "git.suggestSmartCommit": false,
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "remote.SSH.remotePlatform": {
-        "itfsa.com": "linux",
-        "itfs127.com": "linux"
-    },
-    "git.autofetch": true,
     "tabnine.experimentalAutoImports": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "terminal.external.windowsExec": "E:\\PowerShell\\7\\pwsh.exe"
+    "workbench.colorTheme": "One Dark Pro",
+    "python.pythonPath": "/usr/bin/python3",
+    "editor.rulers": [
+        80
+    ],
+    "editor.fontFamily": "Cascadia Code",
+    "diffEditor.codeLens": true,
+    "editor.fontLigatures": true
 }
