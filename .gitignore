@@ -1,2 +1,3 @@
 Sync.bat
-*.vscdb
+globalStorage/
+workspaceStorage/
