@@ -1,11 +1,19 @@
 {
     "tabnine.experimentalAutoImports": true,
     "workbench.colorTheme": "One Dark Pro",
-    "python.pythonPath": "/usr/local/bin/python3",
+    "python.pythonPath": "E:\\Python\\Python39\\python.exe",
     "editor.rulers": [
         80
     ],
     "editor.fontFamily": "Cascadia Code",
     "diffEditor.codeLens": true,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "terminal.integrated.fontFamily": "Sarasa Term SC",
+    "debug.console.fontFamily": "Sarasa Term SC"
 }
