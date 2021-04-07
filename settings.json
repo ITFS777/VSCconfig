@@ -1,6 +1,5 @@
 {
     "tabnine.experimentalAutoImports": true,
-    "workbench.colorTheme": "One Dark Pro",
     "python.pythonPath": "E:\\Python\\Python39\\python.exe",
     "editor.rulers": [
         80
@@ -14,6 +13,44 @@
             "filenamePattern": "*.ipynb"
         }
     ],
-    "terminal.integrated.fontFamily": "Sarasa Term SC",
-    "debug.console.fontFamily": "Sarasa Term SC"
+    "terminal.integrated.fontFamily": "MesloLGS NF,Sarasa Term SC",
+    "debug.console.fontFamily": "Sarasa Mono SC, Cascadia Code",
+    "editor.acceptSuggestionOnEnter": "off",
+    "python.languageServer": "Pylance",
+    "editor.renderWhitespace": "all",
+    "editor.minimap.maxColumn": 80,
+    "files.trimTrailingWhitespace": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.eol": "\n",
+    "KeilAssistant.MDK.Uv4Path": "E:\\Keil\\MDK\\UV4\\UV4.exe",
+    "KeilAssistant.Project.ExcludeList": [
+
+        "template.uvproj",
+        "template.uvprojx"
+    ],
+    "KeilAssistant.C51.Uv4Path": "",
+    "files.autoGuessEncoding": true,
+    "terminal.integrated.rendererType": "dom",
+    "vscode_vibrancy.opacity": 0.8,
+    "workbench.colorTheme": "One Dark Pro",
+     "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-n>": false,
+        "<C-c>": false,
+        "<C-y>": false
+    },
+    "vim.leader": "<c>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>","h"],
+            "commands":["^"]
+        },
+        {
+            "before":["<leader>","l"],
+            "commands":["$"]
+        }
+    ],
+    "editor.fontWeight": null,
+    "git.autofetch": true
 }
